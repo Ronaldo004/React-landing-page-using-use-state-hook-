@@ -1,0 +1,128 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.cartContainer{
+    width: 100%;
+    height: auto;
+    /* border: solid; */
+    margin-top: 80px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  
+   
+    
+   
+}
+.cartS{
+    display: flex;
+    /* border: solid; */
+    width: 28%;
+    height: 63vh;
+    display: flex;
+    position: relative;
+   flex-shrink: inherit;
+    flex-direction: column;
+    margin: 9px 0px;
+    border-radius: 10px;
+    box-shadow: 8px  6px 15px 2px black;
+   
+
+
+    
+}
+.cartNo{
+    
+      width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    position: relative;
+    top: 30px;
+    left: 10px;
+    border-color:gray ;
+
+}
+.cartTitle{
+ 
+    position: relative;
+    top:40px;
+    left: 10px;
+    width: 100px;
+    height: auto;
+    border-radius: 6px;
+
+}
+.cartHeading{
+    
+    position: relative;
+    top:44px;
+    left: 10px;
+    height:auto;
+    width: 60%;
+
+}
+.cartDes{
+    
+    position: relative;
+    top:48px;
+    height: 10vh;
+}
+.cartRead{
+   
+    position: relative;
+    top: 49px;
+    left: 10px;
+}
+.Image{
+   
+    position: relative;
+    top:51px;
+    height: 30vh;
+     /* background-image: url("./img/biryani.jpg");
+    background-size: 30vw 30vh;  */
+}
+.btn-sm{
+    width: 30%;
+    position: relative;
+    top:53px;
+    height: 5%;
+    left: 8px;
+}
+.navbar{
+    /* border: solid; */
+    height: 10vh;
+    position: relative;
+    top:8px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: bisque;
+}
+.btn-group{
+    /* border: solid; */
+    width: 80vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.btn__item{
+    width: 200px;
+    height: 5vh;
+    border-radius: 10px;
+    border: none;
+    background-color: bisque;
+    font-size:x-large;
+    font-weight: 900;
+    font-family: 'Roboto Mono', monospace;
+}
+.Image img{
+    width: 25vw;
+    height: 25vh;
+}
